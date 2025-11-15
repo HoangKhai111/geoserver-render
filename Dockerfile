@@ -1,6 +1,6 @@
 # 1. Dùng GeoServer OSGeo làm base image
 # THAY ĐỔI TẠI ĐÂY: Dùng 2.27 thay vì 2.25.1 và bỏ số cuối .1
-FROM osgeo/geoserver:2.27.1
+FROM osgeo/geoserver:2.28.0
 
 # 2. Thiết lập user admin mặc định
 ENV GEOSERVER_ADMIN_USER=admin
